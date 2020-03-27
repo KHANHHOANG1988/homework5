@@ -42,5 +42,15 @@ You are required to submit the following for review:
 
 * The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
+## completed
+* created timeblocks HTML
+* Code for time blocks background color to change with current time
+* Code to store and get values from local storage
+* The URL of the deployed application.
+https://khanhhoang1988.github.io/homework5/
+* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+https://github.com/KHANHHOANG1988/homework5.git
+* Screen shot url
+https://github.com/KHANHHOANG1988/homework5/blob/master/Assets/Screenshot.png?raw=true
 - - -
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
