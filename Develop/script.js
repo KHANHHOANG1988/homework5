@@ -28,5 +28,22 @@ $(document).ready(function () {
         }
     }
 
+    var saveBtns = $(".saveBtn");
+    saveBtns.on("click", function (){
+        var savedBtns = $(this).attr("save");
+        var input = $("#" + savedBtns).val();
+        localStorage.setItem(savedBtns, input);
+    });
+
+    setStoredInputs();
+
+    function setStoredInputs() {
+        for (var i = 0; i < times.length; i++) {
+            $("#" + times[i]).attr("Value", localStorage.getItem(times[i]));
+            }
+        }
+
+
+
 
 
